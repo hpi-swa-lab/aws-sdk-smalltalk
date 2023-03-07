@@ -1,11 +1,11 @@
 OrderedDictionary {
-	'pharo-repository/AWS-Core' : #SquotTonelSerializer,
-	'pharo-repository/AWS-DynamoDB' : #SquotTonelSerializer,
-	'pharo-repository/AWS-STS' : #SquotTonelSerializer,
-	'pharo-repository/AWS-S3' : #SquotTonelSerializer,
-	'pharo-repository/AWS-CloudFront' : #SquotTonelSerializer,
-	'pharo-repository/AWS-ElasticTranscoder' : #SquotTonelSerializer,
-	'pharo-repository/AWS-SNS' : #SquotTonelSerializer,
-	'pharo-repository/BaselineOfAWS' : #SquotTonelSerializer,
-	'pharo-repository/AWS-Lambda' : #SquotTonelSerializer
+	'packages/AWS-Core' : #SquotTonelSerializer,
+	'packages/AWS-DynamoDB' : #SquotTonelSerializer,
+	'packages/AWS-STS' : #SquotTonelSerializer,
+	'packages/AWS-S3' : #SquotTonelSerializer,
+	'packages/AWS-CloudFront' : #SquotTonelSerializer,
+	'packages/AWS-ElasticTranscoder' : #SquotTonelSerializer,
+	'packages/AWS-SNS' : #SquotTonelSerializer,
+	'packages/BaselineOfAWS' : #SquotTonelSerializer,
+	'packages/AWS-Lambda' : #SquotTonelSerializer
 }
