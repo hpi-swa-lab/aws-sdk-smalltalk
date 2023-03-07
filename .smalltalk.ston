@@ -3,7 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'AWS',
       #directory : 'pharo-repository',
-      #platforms : [ #pharo ]
+      #platforms : [ #squeak ]
     }
   ],
   #testing : {
@@ -11,7 +11,7 @@ SmalltalkCISpec {
       #classes : [ #SignatureV4Test ]
     },
     #exclude : {
-      #packages : [ 'AWS.*' ]
+      #packages : [ 'AWS.*', 'Cryptography*' ]
     },
     #failOnZeroTests : false
   }
