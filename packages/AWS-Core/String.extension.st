@@ -1,6 +1,13 @@
 Extension { #name : #String }
 
 { #category : #'*AWS-Core' }
+String >> awsEncodeCanonicalUri [
+
+	^ self asUrl awsEncodeCanonicalUri
+
+]
+
+{ #category : #'*AWS-Core' }
 String >> convertUTF8 [
 	^ self convertToEncoding: #utf8.
 ]

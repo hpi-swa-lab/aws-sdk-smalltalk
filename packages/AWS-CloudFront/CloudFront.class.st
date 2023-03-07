@@ -79,7 +79,7 @@ CloudFront >> postInvalidation: aXMLStringOrCFInvalidationBatch [
 		entity:
 			(ZnEntity
 				readBinaryFrom: requestBody asByteArray readStream
-				usingType: ZnMimeType textXML
+				usingType: (MIMEType main: 'text' sub: 'xml')
 				andLength: requestBody byteSize).
 	request headers at: 'host' put: self awsConfig endpoint.
 	request headers at: 'x-amz-date' put: amzDatePrintString.
