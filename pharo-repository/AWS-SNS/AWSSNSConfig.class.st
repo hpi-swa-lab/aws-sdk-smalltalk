@@ -31,5 +31,3 @@ AWSSNSConfig class >> initialize [
 AWSSNSConfig >> defaultServiceName [
 	^ 'sns'
 ]
-
-

@@ -152,7 +152,7 @@ SignatureV4 >> createSign: request andConfig: awsConfig andDateTime: datetimeStr
 		createStringtoSign: awsConfig
 		andDateTime: datetimeString
 		andCanonicalRequest: cs.
-
+ 
 	"Task 3: Calculate the AWS Signature Version 4"
 	kSigning := self createDerivedSigningKey: awsConfig andDateTime: datetimeString.
 	hmac := SHA256 new hmac.
